@@ -1,7 +1,6 @@
-﻿.ipynb_checkpoints/
+.ipynb_checkpoints/
 .virtual_documents/
 cumulative.csv
-ImageRenamer.ipynb
 candidate_voting.png
 candidate_zones_scatter.png
 confusion_matrices.png
