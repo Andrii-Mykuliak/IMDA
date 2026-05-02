@@ -12,7 +12,7 @@ This repository contains the full analysis pipeline for the paper:
 
 ## Overview
 
-A reproducible machine learning benchmark for tabular classification of Kepler Objects of Interest (KOI) dispositions — confirmed exoplanets versus false positives — using twelve physical transit and stellar parameters. The benchmark is leakage-aware with respect to explicit vetting-derived fields (`koi_fpflag_*`, `koi_score`), which are deliberately excluded.
+A reproducible machine learning benchmark for tabular classification of Kepler Objects of Interest (KOI) dispositions — confirmed exoplanets versus false positives — using twelve physically motivated transit, stellar, and signal-quality features. The benchmark is leakage-aware with respect to explicit vetting-derived fields (`koi_fpflag_*`, `koi_score`), which are deliberately excluded.
 
 The Inter-Model Disagreement Analysis (IMDA) framework is applied to 1979 unclassified CANDIDATE objects to characterise where and why five trained classifiers disagree.
 
@@ -102,9 +102,12 @@ Result: z = 1.22, p = 0.222 — no statistically significant difference.
 If you use this code, please cite:
 
 ```
-Mykuliak, A., Vovk, A. (2025). Inter-Model Disagreement in Kepler Exoplanet 
-Classification: A Leakage-Aware Benchmark. Astronomy and Computing.
+Mykuliak, A., Vovk, A. (2025). Inter-Model Disagreement in Kepler Exoplanet
+Classification: A Leakage-Aware Benchmark. Manuscript submitted to
+Astronomy and Computing. https://doi.org/10.5281/zenodo.19958364
 ```
+
+> **Note:** Citation will be updated with volume/issue/DOI upon acceptance.
 
 ---
 
